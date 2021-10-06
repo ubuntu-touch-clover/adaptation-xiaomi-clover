@@ -4,5 +4,5 @@
 /etc/modules-load.d
 /etc/gst-droid
 /etc/package-sideload-create.d
-/usr/lib/adaptation-fxtec-pro1/preferences
-/usr/lib/adaptation-fxtec-pro1/sources
+/usr/lib/adaptation-xiaomi-jasmine/preferences
+/usr/lib/adaptation-xiaomi-jasmine/sources

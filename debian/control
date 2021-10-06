@@ -1,23 +1,23 @@
-Source: adaptation-fxtec-pro1
-Maintainer: Giuseppe `r3vn` Corti
+Source: adaptation-xiaomi-jasmine
+Maintainer: Shou
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/hybris-mobian/adaptation-fxtec-pro1
-Vcs-Git: https://github.com/hybris-mobian-releng/adaptation-fxtec-pro1.git
+Vcs-Browser: https://github.com/hybris-mobian/adaptation-xiaomi-jasmine
+Vcs-Git: https://github.com/hybris-mobian-releng/adaptation-xiaomi-jasmine.git
 
-Package: adaptation-fxtec-pro1
+Package: adaptation-xiaomi-jasmine
 Architecture: all
 Depends: ${misc:Depends},
-         linux-bootimage-fxtec-pro1,
+         linux-bootimage-xiaomi-jasmine,
          adaptation-hybris-api28-phone,
-         adaptation-fxtec-pro1-configs,
-Description: adapatation-fxtec-pro1 - meta
- f(x)tec Pro1 api28 adaptation metapackage
+         adaptation-xiaomi-jasmine-configs,
+Description: adapatation-xiaomi-jasmine - meta
+ Xiaomi MiA2 api28 adaptation metapackage
 
-Package: adaptation-fxtec-pro1-configs
+Package: adaptation-xiaomi-jasmine-configs
 Architecture: all
 Depends: ${misc:Depends},
-         adaptation-fxtec-pro1 (= ${binary:Version}),
-Description: f(x)tec Pro1's specific adaptation configs
+         adaptation-xiaomi-jasmine (= ${binary:Version}),
+Description: Xiaomi Mi A2 specific adaptation configs
