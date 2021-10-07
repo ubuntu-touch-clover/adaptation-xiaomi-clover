@@ -1,23 +1,23 @@
-Source: adaptation-xiaomi-jasmine
-Maintainer: Shou
+Source: adaptation-xiaomi-wayne
+Maintainer: kisekinopureya <gokhanozdemir753@gmail.com>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/hybris-mobian/adaptation-xiaomi-jasmine
-Vcs-Git: https://github.com/hybris-mobian-releng/adaptation-xiaomi-jasmine.git
+Vcs-Browser: https://github.com/Droidian-Mi-A2-6X/adaptation-xiaomi-wayne
+Vcs-Git: https://github.com/Droidian-Mi-A2-6X/adaptation-xiaomi-wayne.git
 
-Package: adaptation-xiaomi-jasmine
+Package: adaptation-xiaomi-wayne
 Architecture: all
 Depends: ${misc:Depends},
-         linux-bootimage-xiaomi-jasmine,
+         linux-bootimage-xiaomi-wayne,
          adaptation-hybris-api28-phone,
-         adaptation-xiaomi-jasmine-configs,
-Description: adapatation-xiaomi-jasmine - meta
- Xiaomi MiA2 api28 adaptation metapackage
+         adaptation-xiaomi-wayne-configs,
+Description: adapatation-xiaomi-wayne - meta
+ Xiaomi Mi 6X api28 adaptation metapackage
 
-Package: adaptation-xiaomi-jasmine-configs
+Package: adaptation-xiaomi-wayne-configs
 Architecture: all
 Depends: ${misc:Depends},
-         adaptation-xiaomi-jasmine (= ${binary:Version}),
-Description: Xiaomi Mi A2 specific adaptation configs
+         adaptation-xiaomi-wayne (= ${binary:Version}),
+Description: Xiaomi Mi 6X specific adaptation configs

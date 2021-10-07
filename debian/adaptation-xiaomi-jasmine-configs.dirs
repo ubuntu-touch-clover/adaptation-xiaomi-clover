@@ -1,8 +1,0 @@
-/etc/apt/sources.list.d
-/etc/apt/preferences.d
-/etc/udev/rules.d
-/etc/modules-load.d
-/etc/gst-droid
-/etc/package-sideload-create.d
-/usr/lib/adaptation-xiaomi-jasmine/preferences
-/usr/lib/adaptation-xiaomi-jasmine/sources
