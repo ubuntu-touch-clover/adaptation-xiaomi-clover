@@ -1,0 +1,10 @@
+/etc/apt/sources.list.d
+/etc/apt/trusted.gpg.d
+/etc/apt/preferences.d
+/etc/udev/rules.d
+/etc/modules-load.d
+/etc/gst-droid
+/etc/package-sideload-create.d
+/usr/lib/adaptation-xiaomi-wayne/preferences
+/usr/lib/adaptation-xiaomi-wayne/sources
+/usr/lib/adaptation-xiaomi-wayne/package-sideload-create.d

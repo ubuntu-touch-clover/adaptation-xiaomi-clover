@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adaptation-xiaomi-jasmine
-Source: https://github.com/hybris-mobian/adaptation-xiaomi-jasmine
+Upstream-Name: adaptation-xiaomi-wayne
+Source: https://github.com/Droidian-Mi-A2-6X/adaptation-xiaomi-wayne
 
 Files: *
-Copyright: 2021 Shou <shou@disroot.org>
+Copyright: 2021 kisekinopureya <gokhanozdemir753@gmail.com>
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2021 Shou <shou@disroot.org>
+Copyright: 2021 kisekinopureya <gokhanozdemir753@gmail.com>
 License: BSD-3-clause
 
 License: BSD-3-clause

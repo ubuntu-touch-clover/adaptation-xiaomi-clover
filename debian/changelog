@@ -1,0 +1,129 @@
+adaptation-xiaomi-wayne (18+git20211007074647.d207f05.bullseye) bullseye; urgency=medium
+
+  [ kisekinopureya ]
+  * jasmine -> wayne
+
+  [ Shou ]
+  * Adapt for jasmine
+
+ -- kisekinopureya <gokhanozdemir753@gmail.com>  Thu, 07 Oct 2021 07:46:47 +0000
+
+adaptation-xiaomi-wayne (18) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1] removed feedbackd feature branch
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Thu, 23 Sep 2021 00:12:55 +0200
+
+adaptation-xiaomi-wayne (17) bullseye; urgency=medium
+
+  * [udev] fixed led's brightness permissions
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Sun, 02 May 2021 21:42:47 +0200
+
+adaptation-xiaomi-wayne (16) bullseye; urgency=medium
+
+  [ Eugenio Paolantonio (g7) ]
+  * [packaging] Added a maintscript to clean up deprecated conffiles
+  * [adaptation-fxtec-pro1] Enforce libstdc++ workaround on the pulseaudio service too
+
+  [ r3vn ]
+  * [adaptation-fxtec-pro1] removed sleep from pulseaudio unit
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 17 Apr 2021 15:25:09 +0200
+
+adaptation-xiaomi-wayne (14) bullseye; urgency=medium
+
+  * [ci] Updated to match new name [CI SKIP]
+  * [adaptation-fxtec-pro1] Point to feature branches under the droidian umbrella
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 26 Mar 2021 00:37:14 +0100
+
+adaptation-xiaomi-wayne (13) bullseye; urgency=medium
+
+  * [packaging] adaptation-fxtec-pro1: disable dual-sim support for now
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 13 Mar 2021 20:13:16 +0100
+
+adaptation-xiaomi-wayne (12) bullseye; urgency=medium
+
+  * [package-sideload-create.d] Move to /usr/lib/adaptation-fxtec-pro1 (and create symlinks during installation)
+  * [adaptation-fxtec-pro1] Disable keypad slide pins and repositories (except libinput)
+  * [adaptation-fxtec-pro1] Add feedbackd@libhardware feature branch
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 13 Mar 2021 02:41:18 +0100
+
+adaptation-xiaomi-wayne (11) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1] removed timekeeper dependency since it is now included on adaptation-hybris-api28gsi
+  * [modules-load.d] added msm_11ad_proxy
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Wed, 24 Feb 2021 23:11:06 +0100
+
+adaptation-xiaomi-wayne (10) bullseye; urgency=medium
+
+  * [droid-system-overlay] disable time_daemon
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Wed, 24 Feb 2021 22:41:02 +0100
+
+adaptation-xiaomi-wayne (9) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1-configs] pulseaudio: added 2 seconds sleep
+  * [adaptation-fxtec-pro1] added timekeeper
+  * [adaptation-fxtec-pro1-configs] gst-droid: added dont-use-droid-convert
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Wed, 17 Feb 2021 22:35:40 +0100
+
+adaptation-xiaomi-wayne (8) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1-configs] moved apt configs on /usr/lib/adaptation-fxtec
+  * [adaptation-fxtec-pro1-configs] added package-sideload.d entry for keypad-slide
+  * [apt] preferences: added libinput10
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Sat, 13 Feb 2021 21:42:15 +0100
+
+adaptation-xiaomi-wayne (7) bullseye; urgency=medium
+
+  * [apt] preferences: escape spaces in the pinning rules
+  * [profile] Workaround vendor partion bug by preferring system image's libraries
+  * [phosh] Added default phoc configuration
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 13 Feb 2021 20:06:56 +0100
+
+adaptation-xiaomi-wayne (6) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1-configs] added modules-load.d and gst-droid configs
+  * [adaptation-fxtec-pro1-configs] added packages pin
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Sat, 13 Feb 2021 17:36:49 +0100
+
+adaptation-xiaomi-wayne (5) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1-configs] TMP: revert d7b0abf
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Sat, 13 Feb 2021 15:27:45 +0100
+
+adaptation-xiaomi-wayne (4) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1-config] updated keypad-slide repositories
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Sat, 13 Feb 2021 03:16:39 +0100
+
+adaptation-xiaomi-wayne (3) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1] fix bootimage dep
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Sat, 13 Feb 2021 02:45:37 +0100
+
+adaptation-xiaomi-wayne (2) bullseye; urgency=medium
+
+  * [debian] revert daf7997, added keypad-slide list
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Sat, 13 Feb 2021 01:13:40 +0100
+
+adaptation-xiaomi-wayne (1) bullseye; urgency=medium
+
+  * [adaptation-fxtec-pro1] first commit.
+  * [debian] tmp: remove repositories
+
+ -- r3vn <giuseppe.corti@protonmail.com>  Fri, 12 Feb 2021 23:42:54 +0100
+
