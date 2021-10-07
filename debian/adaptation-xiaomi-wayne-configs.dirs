@@ -1,10 +1,8 @@
 /etc/apt/sources.list.d
 /etc/apt/trusted.gpg.d
-/etc/apt/preferences.d
 /etc/udev/rules.d
-/etc/modules-load.d
 /etc/gst-droid
-/etc/package-sideload-create.d
-/usr/lib/adaptation-xiaomi-wayne/preferences
-/usr/lib/adaptation-xiaomi-wayne/sources
+/etc/phosh
 /usr/lib/adaptation-xiaomi-wayne/package-sideload-create.d
+/usr/lib/systemd/system
+/usr/lib/systemd/system/bluebinder.service.d
