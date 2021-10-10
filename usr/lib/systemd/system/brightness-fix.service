@@ -1,5 +1,5 @@
 [Unit]
-Description=jasmine: Fix display brightness permissions on stock vendor
+Description=clover: Fix display brightness permissions on stock vendor
 
 [Service]
 User=root
